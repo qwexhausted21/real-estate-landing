@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог | LuxeEstate</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header__inner">
+            <a href="index.html" class="logo">LuxeEstate</a>
+            <nav class="nav">
+                <a href="index.html" class="nav__link">Главная</a>
+                <a href="catalog.html" class="nav__link active">Каталог</a>
+                <a href="index.html#calculator" class="nav__link">Ипотека</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="catalog container">
+        <h1 style="font-family: var(--font-heading); font-size: 2.5rem; margin-bottom: 40px;">Все объекты</h1>
+        
+        <div class="grid">
+            <!-- Карточка 1 -->
+            <div class="property-card">
+                <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=800&auto=format&fit=crop" alt="Дом">
+                <div class="property-info">
+                    <div class="property-price">45 000 000 ₽</div>
+                    <h3 class="property-title">Современная вилла</h3>
+                    <p class="property-address">📍 Загородный клуб, 24</p>
+                </div>
+            </div>
+
+            <!-- Карточка 2 -->
+            <div class="property-card">
+                <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=800&auto=format&fit=crop" alt="Квартира">
+                <div class="property-info">
+                    <div class="property-price">18 500 000 ₽</div>
+                    <h3 class="property-title">Пентхаус в центре</h3>
+                    <p class="property-address">📍 Ул. Ленина, 10</p>
+                </div>
+            </div>
+
+            <!-- Карточка 3 -->
+            <div class="property-card">
+                <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?q=80&w=800&auto=format&fit=crop" alt="Апартаменты">
+                <div class="property-info">
+                    <div class="property-price">22 000 000 ₽</div>
+                    <h3 class="property-title">Апартаменты бизнес-класса</h3>
+                    <p class="property-address">📍 ЖК «Небо», 15</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 LuxeEstate. Все права защищены.</p>
+        </div>
+    </footer>
+</body>
+</html>
