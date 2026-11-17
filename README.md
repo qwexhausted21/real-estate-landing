@@ -7,7 +7,7 @@
 
 Премиальный многостраничный сайт агентства недвижимости с интерактивным калькулятором ипотеки.
 
-![LuxeEstate Real Estate]([<img width="1280" height="1024" alt="screenshot" src="https://github.com/user-attachments/assets/e4c40a01-cd5f-4d31-b2b9-7deff61fc2e5" />])
+<img width="1280" height="1024" alt="screenshot" src="https://github.com/user-attachments/assets/e4c40a01-cd5f-4d31-b2b9-7deff61fc2e5" />
 
 ## 🔥 Особенности проекта
 
